@@ -1,0 +1,108 @@
+<http://cor.esipfed.org/ont/earthcube/ELT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://cor.esipfed.org/ont/earthcube/ELT> <http://purl.org/dc/elements/1.1/description> "The Expected Lifetime Controlled Vocabulary was created for NSF's EarthCube Program's Resource Registry.  At this point it merely lists the expected time to live of resources in the registry."@en .
+<http://cor.esipfed.org/ont/earthcube/ELT> <http://purl.org/dc/elements/1.1/title> "Expected Lifetime Controlled Vocabulary"@en .
+<http://cor.esipfed.org/ont/earthcube/ELT> <http://purl.org/dc/terms/bibliographicCitation> "Duerr, R., 2019, \"Expected Lifetime Controlled Vocabulary\", ESIP Community Ontology Repository, Version 1.0.0, available at: http://cor.esipfed.org/ont/earthcube/SPKT"@en .
+<http://cor.esipfed.org/ont/earthcube/ELT> <http://purl.org/dc/terms/license> <https://creativecommons.org/share-your-work/public-domain/cc0/> .
+<http://cor.esipfed.org/ont/earthcube/ELT> <http://purl.org/dc/terms/license> "Ruth Duerr"@en .
+<http://cor.esipfed.org/ont/earthcube/ELT> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.obolibrary.org/obo/IAO_0000115
+<http://purl.obolibrary.org/obo/IAO_0000115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.obolibrary.org/obo/IAO_0000115> <http://www.w3.org/2000/01/rdf-schema#label> "definition" .
+# 
+# http://purl.obolibrary.org/obo/IAO_0000119
+<http://purl.obolibrary.org/obo/IAO_0000119> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.obolibrary.org/obo/IAO_0000119> <http://www.w3.org/2000/01/rdf-schema#label> "definition source" .
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/bibliographicCitation
+<http://purl.org/dc/terms/bibliographicCitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#created_by
+<http://www.geneontology.org/formats/oboInOwl#created_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#creation_date
+<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasDbXref
+<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasURI
+<http://www.geneontology.org/formats/oboInOwl#hasURI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://cor.esipfed.org/ont/earthcube/ELT_0000001
+<http://cor.esipfed.org/ont/earthcube/ELT_0000001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/ELT_0000001> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/ELT_0000006> .
+<http://cor.esipfed.org/ont/earthcube/ELT_0000001> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/ELT_0000001> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T19:02:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/ELT_0000001> <http://www.w3.org/2000/01/rdf-schema#label> "Long-term"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/ELT_0000002
+<http://cor.esipfed.org/ont/earthcube/ELT_0000002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/ELT_0000002> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/ELT_0000006> .
+<http://cor.esipfed.org/ont/earthcube/ELT_0000002> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/ELT_0000002> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T19:02:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/ELT_0000002> <http://www.w3.org/2000/01/rdf-schema#label> "More than 5 years"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/ELT_0000003
+<http://cor.esipfed.org/ont/earthcube/ELT_0000003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/ELT_0000003> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/ELT_0000006> .
+<http://cor.esipfed.org/ont/earthcube/ELT_0000003> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/ELT_0000003> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T19:02:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/ELT_0000003> <http://www.w3.org/2000/01/rdf-schema#label> "1 - 5 years"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/ELT_0000004
+<http://cor.esipfed.org/ont/earthcube/ELT_0000004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/ELT_0000004> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/ELT_0000006> .
+<http://cor.esipfed.org/ont/earthcube/ELT_0000004> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/ELT_0000004> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T19:02:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/ELT_0000004> <http://www.w3.org/2000/01/rdf-schema#label> "Unknown"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/ELT_0000005
+<http://cor.esipfed.org/ont/earthcube/ELT_0000005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/ELT_0000005> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://cor.esipfed.org/ont/earthcube/ELT_0000006> .
+<http://cor.esipfed.org/ont/earthcube/ELT_0000005> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/ELT_0000005> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T19:03:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/ELT_0000005> <http://www.w3.org/2000/01/rdf-schema#label> "Not Applicable"@en .
+# 
+# http://cor.esipfed.org/ont/earthcube/ELT_0000006
+<http://cor.esipfed.org/ont/earthcube/ELT_0000006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://cor.esipfed.org/ont/earthcube/ELT_0000006> <http://www.geneontology.org/formats/oboInOwl#created_by> <http://orcid.org/0000-0003-4808-4736> .
+<http://cor.esipfed.org/ont/earthcube/ELT_0000006> <http://www.geneontology.org/formats/oboInOwl#creation_date> "2019-10-22T19:03:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://cor.esipfed.org/ont/earthcube/ELT_0000006> <http://www.w3.org/2000/01/rdf-schema#label> "Expected Lifetime"@en .
+# 
+# Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/
